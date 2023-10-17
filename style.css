@@ -130,3 +130,24 @@
 .contact ul li:nth-child(4) {
     margin-top: 42px;
 }
+
+/* MEDIA QUERY CSS */
+
+@media only screen and (max-width: 1025px) {
+    .container-1 {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-side-1 {
+        padding-left: 30px;
+        padding-top: 30px;
+        gap: 28px;
+    }
+    .right-side-1 img {
+        padding-right: 0px;
+    }
+  }
